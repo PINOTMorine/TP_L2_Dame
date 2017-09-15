@@ -12,12 +12,12 @@ class Piece:
     def atomic_moves(self,board):
         if self.color=='B':
             x=self.position[0]+1
-            y=self.position[1]+1
-            y2=self.position[1]-1
+            y=self.position[1]-1
+            y2=self.position[1]+1
         else :
             x=self.position[0]-1
-            y=self.position[1]+1
-            y2=self.position[1]-1
+            y=self.position[1]-1
+            y2=self.position[1]+1
 
         if x>=0 and y>=0 and x<len(board) and y<len(board):
             if board[x][y] == '_':

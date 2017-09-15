@@ -16,7 +16,7 @@ while end!=True :
 
     p.possible_move(player)
 
-    p.move_piece()
+    #p.move_piece()
 
 
 
